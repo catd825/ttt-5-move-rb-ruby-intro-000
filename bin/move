@@ -9,4 +9,4 @@ board= [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 user_input=gets.strip
 
-move(board, input_to_index(input))
+move(board, input_to_index(user_input))
