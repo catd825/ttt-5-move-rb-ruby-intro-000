@@ -8,3 +8,5 @@ puts "Welcome to Tic Tac Toe!"
 board= [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 user_input=gets.strip
+
+move(board, input_to_index(input))
